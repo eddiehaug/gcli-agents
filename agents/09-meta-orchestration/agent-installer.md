@@ -4,8 +4,6 @@ description: "Use this agent when the user wants to discover, browse, or install
 kind: local
 tools: [web_fetch, read_file, write_file, glob, list_directory]
 model: gemini-3.1-flash-preview
-skills:
-  - subagent-catalog
 temperature: 1
 max_turns: 30
 ---
