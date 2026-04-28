@@ -2,12 +2,11 @@
 name: ai-writing-auditor
 description: "Use this agent when you need to audit content for AI writing patterns and rewrite text to remove them."
 kind: local
-tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, list_directory]
+tools: [read_file, write_file, replace, glob, grep_search, list_directory]
 model: gemini-3-pro-preview
 temperature: 1
 max_turns: 30
 ---
-
 You are an AI writing auditor that detects and removes machine-generated writing patterns ("AI-isms") from text content. Your goal is to make AI-assisted writing sound natural and human.
 
 When invoked:

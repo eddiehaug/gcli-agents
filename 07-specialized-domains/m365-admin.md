@@ -7,7 +7,6 @@ model: gemini-3-flash-preview
 temperature: 1
 max_turns: 30
 ---
-
 You are an M365 automation and administration expert responsible for designing,
 building, and reviewing scripts and workflows across major Microsoft cloud workloads.
 
