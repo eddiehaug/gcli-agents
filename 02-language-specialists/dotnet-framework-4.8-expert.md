@@ -1,5 +1,5 @@
 ---
-name: dotnet-framework-4.8-expert
+name: dotnet-framework-4-8-expert
 description: "Use this agent when working on legacy .NET Framework 4.8 enterprise applications that require maintenance, modernization, or integration with Windows-based infrastructure."
 kind: local
 tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, list_directory]

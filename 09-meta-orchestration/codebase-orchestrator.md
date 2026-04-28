@@ -2,7 +2,7 @@
 name: codebase-orchestrator
 description: "Use this agent when you need repository-wide refactor governance with explicit approval loops, weighted risk prioritization, diff previews, and deterministic fallback strategies."
 kind: local
-tools: [read_file, write_file, replace, glob, grep_search, web_fetch, airis-mcp-gateway, context-manager, error-coordinator, pied-piper, subagent-catalog:search, subagent-catalog:fetch, list_directory]
+tools: [read_file, write_file, replace, glob, grep_search, web_fetch, airis_mcp_gateway, context_manager, error_coordinator, pied_piper, subagent_catalog_search, subagent_catalog_fetch, list_directory]
 model: gemini-3-pro-preview
 temperature: 1
 max_turns: 30
