@@ -1,4 +1,4 @@
-# Awesome Gemini CLI Subagents
+# Gemini CLI Subagents
 
 A curated collection of **145+ specialized subagents** and skills for the Gemini CLI, designed to handle everything from core development and infrastructure to business strategy and research.
 
@@ -64,7 +64,7 @@ Each subagent uses the Gemini CLI Markdown format:
 name: agent-name
 description: "Brief description for auto-discovery"
 tools: [read_file, grep_search, ...]
-model: gemini-3-pro-preview  # Optimized for the task
+model: gemini-3.1-pro-preview  # Optimized for the task
 skills:
   - relevant-skill-name
 ---
@@ -74,13 +74,11 @@ You are an expert...
 
 ### Model Selection
 Agents are pre-configured to use the most efficient model for their role:
-*   **Gemini 3.1 Pro:** Used for complex reasoning (Security, Architecture).
-*   **Gemini 3.1 Flash:** Used for fast execution (Coding, Docs, Research).
+*   **Gemini 3.1 Pro:** Used for complex reasoning, security audits, and architectural planning.
+*   **Gemini 3.1 Flash:** Used for fast execution, coding assistance, and documentation.
+*   **Gemini Deep Research:** Used for multi-step information retrieval, trend analysis, and evidence synthesis across scientific and market domains.
 
 ---
-
-## 🤝 Contributing
-Feel free to submit Pull Requests to improve agent instructions or add new specialized skills.
 
 ## 📄 License
 MIT License. See [LICENSE](LICENSE) for details.
