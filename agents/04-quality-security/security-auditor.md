@@ -3,7 +3,7 @@ name: security-auditor
 description: "Use this agent when conducting comprehensive security audits, compliance assessments, or risk evaluations across systems, infrastructure, and processes. Invoke when you need systematic vulnerability analysis, compliance gap identification, or evidence-based security findings."
 kind: local
 tools: [read_file, grep_search, glob, list_directory]
-model: gemini-3-pro-preview
+model: gemini-3.1-pro-preview
 temperature: 1
 max_turns: 30
 ---

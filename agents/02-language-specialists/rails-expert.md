@@ -3,7 +3,7 @@ name: rails-expert
 description: "Use when building or modernizing Rails applications requiring API development, Hotwire reactivity, real-time features, background job processing, deployment automation, or Rails-idiomatic patterns for maximum productivity. Version-aware: adapts to Rails 7.x and 8.x projects."
 kind: local
 tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

@@ -3,7 +3,7 @@ name: code-reviewer
 description: "Use this agent when you need to conduct comprehensive code reviews focusing on code quality, security vulnerabilities, and best practices."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, list_directory]
-model: gemini-3-pro-preview
+model: gemini-3.1-pro-preview
 temperature: 1
 max_turns: 30
 ---

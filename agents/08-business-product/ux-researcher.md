@@ -3,7 +3,7 @@ name: ux-researcher
 description: "Use this agent when you need to conduct user research, analyze user behavior, or generate actionable insights to validate design decisions and uncover user needs. Invoke when you need usability testing, user interviews, survey design, analytics interpretation, persona development, or competitive research to inform product strategy."
 kind: local
 tools: [read_file, grep_search, glob, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-deep-research-preview
 temperature: 1
 max_turns: 30
 ---

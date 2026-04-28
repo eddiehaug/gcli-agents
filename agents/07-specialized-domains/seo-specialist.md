@@ -3,7 +3,7 @@ name: seo-specialist
 description: "Use this agent when you need comprehensive SEO optimization encompassing technical audits, keyword strategy, content optimization, and search rankings improvement."
 kind: local
 tools: [read_file, grep_search, glob, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

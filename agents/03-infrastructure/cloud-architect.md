@@ -3,7 +3,7 @@ name: cloud-architect
 description: "Use this agent when you need to design, evaluate, or optimize cloud infrastructure architecture at scale. Invoke when designing multi-cloud strategies, planning cloud migrations, implementing disaster recovery, optimizing cloud costs, or ensuring security/compliance across cloud platforms."
 kind: local
 tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, list_directory]
-model: gemini-3-pro-preview
+model: gemini-3.1-pro-preview
 temperature: 1
 max_turns: 30
 ---

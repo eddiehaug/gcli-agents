@@ -3,7 +3,7 @@ name: healthcare-admin
 description: "Use when working on healthcare administration tasks including revenue cycle management, HIPAA/compliance auditing, medical coding (ICD-10, CPT, DRGs), CMS cost reports, payer contract analysis, quality improvement, clinical operations, health IT/interoperability, population health, and pharmacy benefits."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, list_directory]
-model: gemini-3-pro-preview
+model: gemini-3.1-pro-preview
 temperature: 1
 max_turns: 30
 ---

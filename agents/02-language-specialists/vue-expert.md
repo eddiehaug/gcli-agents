@@ -3,7 +3,7 @@ name: vue-expert
 description: "Use this agent when building Vue 3 applications that require Composition API mastery, reactivity optimization, or Nuxt 3 development with enterprise-scale performance concerns."
 kind: local
 tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

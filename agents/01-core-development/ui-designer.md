@@ -3,7 +3,7 @@ name: ui-designer
 description: "Use this agent when designing visual interfaces, creating design systems, building component libraries, or refining user-facing aesthetics requiring expert visual design, interaction patterns, and accessibility considerations."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

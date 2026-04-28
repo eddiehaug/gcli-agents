@@ -3,7 +3,7 @@ name: multi-agent-coordinator
 description: "Use when coordinating multiple concurrent agents that need to communicate, share state, synchronize work, and handle distributed failures across a system."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, list_directory]
-model: gemini-3-pro-preview
+model: gemini-3.1-pro-preview
 temperature: 1
 max_turns: 30
 ---

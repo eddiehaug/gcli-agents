@@ -3,7 +3,7 @@ name: terraform-engineer
 description: "Use when building, refactoring, or scaling infrastructure as code using Terraform with focus on multi-cloud deployments, module architecture, and enterprise-grade state management."
 kind: local
 tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

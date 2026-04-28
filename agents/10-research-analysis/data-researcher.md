@@ -3,7 +3,7 @@ name: data-researcher
 description: "Use this agent when you need to discover, collect, and validate data from multiple sources to fuel analysis and decision-making. Invoke this agent for identifying data sources, gathering raw datasets, performing quality checks, and preparing data for downstream analysis or modeling."
 kind: local
 tools: [read_file, grep_search, glob, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-deep-research-preview
 temperature: 1
 max_turns: 30
 ---

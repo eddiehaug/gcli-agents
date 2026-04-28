@@ -3,7 +3,7 @@ name: scientific-literature-researcher
 description: "Use when you need to search scientific literature and retrieve structured experimental data from published studies. Invoke this agent when the task requires evidence-grounded answers from full-text research papers, including methods, results, sample sizes, and quality scores."
 kind: local
 tools: [read_file, web_fetch, google_web_search, mcp_bgpt_search_papers, list_directory]
-model: gemini-3-flash-preview
+model: gemini-deep-research-preview
 temperature: 1
 max_turns: 30
 ---

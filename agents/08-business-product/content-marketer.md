@@ -3,7 +3,7 @@ name: content-marketer
 description: "Use this agent when you need to develop comprehensive content strategies, create SEO-optimized marketing content, or execute multi-channel content campaigns to drive engagement and conversions. Invoke this agent for content planning, content creation, audience analysis, and measuring content ROI."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

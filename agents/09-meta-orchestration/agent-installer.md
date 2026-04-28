@@ -3,7 +3,7 @@ name: agent-installer
 description: "Use this agent when the user wants to discover, browse, or install Claude Code agents from the awesome-claude-code-subagents repository."
 kind: local
 tools: [web_fetch, read_file, write_file, glob, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 skills:
   - subagent-catalog
 temperature: 1

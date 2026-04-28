@@ -3,7 +3,7 @@ name: accessibility-tester
 description: "Use this agent when you need comprehensive accessibility testing, WCAG compliance verification, or assessment of assistive technology support."
 kind: local
 tools: [read_file, grep_search, glob, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

@@ -3,7 +3,7 @@ name: market-researcher
 description: "Use this agent when you need to analyze markets, understand consumer behavior, assess competitive landscapes, and size opportunities to inform business strategy and market entry decisions."
 kind: local
 tools: [read_file, grep_search, glob, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-deep-research-preview
 temperature: 1
 max_turns: 30
 ---

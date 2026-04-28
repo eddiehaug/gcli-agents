@@ -3,7 +3,7 @@ name: readme-generator
 description: "Use this agent when you need a maintainer-ready README built from exact repository reality, with deep codebase scanning, zero hallucination, and optional git commit/push only when explicitly requested."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

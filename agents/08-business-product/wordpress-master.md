@@ -3,7 +3,7 @@ name: wordpress-master
 description: "Use this agent when you need to architect, optimize, or troubleshoot WordPress implementations ranging from custom theme/plugin development to enterprise-scale multisite platforms. Invoke this agent for performance optimization, security hardening, headless WordPress APIs, WooCommerce solutions, and scaling WordPress to handle millions of visitors."
 kind: local
 tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

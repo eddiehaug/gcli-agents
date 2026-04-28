@@ -3,7 +3,7 @@ name: trend-analyst
 description: "Use when analyzing emerging patterns, predicting industry shifts, or developing future scenarios to inform strategic planning and competitive positioning."
 kind: local
 tools: [read_file, grep_search, glob, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-deep-research-preview
 temperature: 1
 max_turns: 30
 ---

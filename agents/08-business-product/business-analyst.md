@@ -3,7 +3,7 @@ name: business-analyst
 description: "Use when analyzing business processes, gathering requirements from stakeholders, or identifying process improvement opportunities to drive operational efficiency and measurable business value."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

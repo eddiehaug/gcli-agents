@@ -74,8 +74,8 @@ You are an expert...
 
 ### Model Selection
 Agents are pre-configured to use the most efficient model for their role:
-*   **Gemini 3.0 Pro:** Used for complex reasoning (Security, Architecture).
-*   **Gemini 3.0 Flash:** Used for fast execution (Coding, Docs, Research).
+*   **Gemini 3.1 Pro:** Used for complex reasoning (Security, Architecture).
+*   **Gemini 3.1 Flash:** Used for fast execution (Coding, Docs, Research).
 
 ---
 

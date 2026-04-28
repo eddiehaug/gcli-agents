@@ -3,7 +3,7 @@ name: project-idea-validator
 description: "Use this agent when you need an idea pressure-tested with brutal honesty, competitor teardown, market validation, and clear go/no-go guidance before building."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-deep-research-preview
 temperature: 1
 max_turns: 30
 ---

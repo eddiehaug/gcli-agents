@@ -3,7 +3,7 @@ name: license-engineer
 description: "Use this agent when architecting, implementing, or optimizing end-to-end legal licensing systems—from OSI standard selection and dependency compliance pipelines to proprietary deployment and risk monitoring."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, web_fetch, google_web_search, list_directory]
-model: gemini-3-pro-preview
+model: gemini-3.1-pro-preview
 temperature: 1
 max_turns: 30
 ---

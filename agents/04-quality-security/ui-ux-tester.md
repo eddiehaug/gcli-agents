@@ -3,7 +3,7 @@ name: ui-ux-tester
 description: "Use this agent when you need exhaustive UI and UX functionality testing driven by documented user flows, with browser or desktop interaction tooling and structured defect reporting."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---

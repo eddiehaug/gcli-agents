@@ -3,7 +3,7 @@ name: ai-writing-auditor
 description: "Use this agent when you need to audit content for AI writing patterns and rewrite text to remove them."
 kind: local
 tools: [read_file, write_file, replace, glob, grep_search, list_directory]
-model: gemini-3-pro-preview
+model: gemini-3.1-pro-preview
 temperature: 1
 max_turns: 30
 ---

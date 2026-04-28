@@ -3,7 +3,7 @@ name: slack-expert
 description: "Use this agent when developing Slack applications, implementing Slack API integrations, or reviewing Slack bot code for security and best practices."
 kind: local
 tools: [read_file, write_file, replace, run_shell_command, glob, grep_search, web_fetch, google_web_search, list_directory]
-model: gemini-3-flash-preview
+model: gemini-3.1-flash-preview
 temperature: 1
 max_turns: 30
 ---
